@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    border: 1 solid black ;
+}
+
+.left{
+    position: relative;
+    width: 35%;
+    background-color: rgb(131, 118, 80);
+    color: #fff;
+    align-items: center;
+
+}
+
+.right{
+    width: 65%;
+    background-color: bisque;
+    align-items: center;
+    text-align: left;
+}
+
+.header{
+    background-color: #353c3e;
+    text-align: center;
+    align-items: center;
+    height: 190px;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+
+.thongtin,.contact,.skill{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contact{
+    position: relative;
+    width: 100%; 
+}
+.icon-item{
+    width: 30px;
+    height: 30px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.two{
+    margin: 10px 0;
+    margin-left: 5px;
+}
+.icon,.icon-right{
+    position:relative;
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-right{
+    margin-left: 50px;
+}
+
+.noidung{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+#address{
+    opacity: 0.3;
+    margin-top: -7px;
+    font-size: 10px;
+}
+i{
+    color: #fff;
+}
+
+p{
+    margin-left: 10px;
+}
+.header>.img{
+    border-radius: 50%;
+}
+
+.img{
+    margin-top: 10px;
+}
+
+
+.flag{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.flag>div>p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.flag>div>.star{
+    margin-left: 3px;
+}
+
+.w3-light-grey{
+    position: relative;
+    width: 200px;
+    height: 6px;
+    background-color: #fff;
+    margin-left: 37px;
+    margin-bottom: 10px;
+    margin-top: -13px;
+}
+
+.w3-container{
+    position: absolute;
+    height: 100%;
+    background-color: black;
+}
