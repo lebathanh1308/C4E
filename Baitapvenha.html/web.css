@@ -4,7 +4,7 @@ body {
   background: url(imager_4_53459_700.jpg) no-repeat top left;
   background-size: cover;
   font-family: sans-serif;
-  overflow: hidden;
+  
 }
 
 * {
@@ -13,9 +13,31 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+.box-scroll{
+    right: 0;
+    height: 1000px;
+    overflow-y: scroll;
+}
+
 .box-menu {
-  background-color: #333;
-  text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: black;
+    text-align: center;
+    height: 90px;
+    justify-content: space-around;
+}
+
+.logo{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: -140px;
 }
 .box-menu ul {
   display: inline-flex;
@@ -26,6 +48,7 @@ body {
   width: 170px;
   margin: 5px;
   padding: 15px;
+  margin-left: -20px;
 }
 
 .box-menu ul li a {
@@ -34,7 +57,7 @@ body {
 }
 .active,
 .box-menu ul li:hover {
-  background: #333;
+  background: black;
   border-radius: 3px;
 }
 .box-menu .fa {
@@ -48,7 +71,7 @@ body {
   display: block;
   position: absolute;
   background: #333;
-  margin-top: 15px;
+  margin-top: 17px;
   margin-left: -15px;
 }
 .box-menu ul li:hover .box-submenu ul {
